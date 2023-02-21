@@ -1,4 +1,4 @@
-package fun-and-struct
+package funstruct
 
 import (
 	"fmt"
