@@ -1,4 +1,4 @@
-package GoProxyReencryption
+package randstring
 
 import (
   "math/rand"
