@@ -1,4 +1,4 @@
-package bipre
+package GoProxyReencryption
 
 import (
 	"fmt"
