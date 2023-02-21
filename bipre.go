@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"crypto/rand"
 	"crypto/sha512"
-	"randstring"
+	"github.com/Rearchki/GoProxyReencryption/randstring"
 	"time"
 )
 
