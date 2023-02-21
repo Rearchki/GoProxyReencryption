@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"math/big"
 	"crypto/rand"
-	"randstring"
 	"crypto/sha512"
 	"time"
 )
@@ -162,7 +161,7 @@ func Encrypt (m []byte, user User, params Params, C Cipher1, C_ Cipher_, V Valid
 	V.u = u
 
 	const charset = "01"
-	w := []byte(randstring.StringWithCharset(l1, charset)) 				//Generating random padding string
+	w := []byte(StringWithCharset(l1, charset)) 				//Generating random padding string
 	V.r = new(big.Int).Mod(hash1(m,w), params.q)					// r = H1(m,w)
 	//fmt.Println(user.pk, V.r)
 	
