@@ -1,4 +1,4 @@
-package randstring
+package funstruct
 
 import (
   "math/rand"
